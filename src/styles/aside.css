@@ -1,0 +1,39 @@
+aside {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-left: 1px solid var(--border);
+  overflow-y: hidden;
+}
+
+.cart-items {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.subtotal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.final-compra {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.total {
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subtotal-compra-title {
+  font-size: 14px;
+}
+
+.soma-total-compra {
+  font-size: 16px;
+}

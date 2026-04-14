@@ -1,0 +1,51 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 0.5rem;
+  height: 350px;
+  border-radius: 8px;
+  transition: 0.15s;
+}
+
+.card:hover {
+  box-shadow: #0a0a0c 0px 3px 8px;
+  transform: translateY(-10px);
+}
+
+.books {
+  margin: 10px auto;
+}
+
+.lucy,
+.codigo-da-vinci {
+  width: 138px;
+  height: 175px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+h5 {
+  font-size: 13px;
+  font-weight: 500;
+}
+span {
+  font-size: 14px;
+  color: var(--second-color);
+}
+
+button {
+  padding: 8px 8px;
+  background-color: transparent;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-color);
+}
+
+button:hover {
+  background-color: #4344473b;
+}
+
+.card.hidden {
+  display: none;
+}

@@ -1,0 +1,19 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  flex: 1;
+  overflow: hidden;
+}
+main {
+  gap: 3em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-content: start;
+  overflow-y: hidden;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.book-img {
+  border-radius: 6px;
+}

@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scal />e=1.0" />
+    <title>Arthro Store</title>
+  </head>
+  <body>
+    <header>
+      <div class="left-side">
+        <a href="index.html">
+          <h3>ArthroStore</h3>
+        </a>
+        <input class="pesquisa" type="search" placeholder="Search" />
+      </div>
+      <div class="right-side">
+        <h3>Seu Carrinho</h3>
+      </div>
+    </header>
+    <div class="container">
+      <main>
+        <div class="card">
+          <div class="books">
+            <img class="book-img" src="/assets/lucy.jpg" alt="" />
+          </div>
+          <h5>Lucy: The Beginnings of Humankind</h5>
+          <span>Donald Johanson</span>
+          <div class="price-lucy">$ 59.90</div>
+          <button
+            class="add-to-cart"
+            data-title="Lucy: The Beginnings of Humankind"
+            data-amount="Quantity:"
+            data-image="/assets/lucy.jpg"
+            data-price="59.90"
+            data-trash="/assets/trash.svg"
+          >
+            Adicionar ao carrinho
+          </button>
+        </div>
+        <div class="card">
+          <div class="books">
+            <img class="book-img" src="/assets/codigo-da-vinci.jpg" alt="" />
+          </div>
+          <h5>Codigo da Vince</h5>
+          <span>Dan Brown</span>
+          <div class="price-codigo-da-vinci">$ 79.90</div>
+          <button
+            class="add-to-cart"
+            data-title="Codigo da Vinci"
+            data-amount="Quantity:"
+            data-image="/assets/codigo-da-vinci.jpg"
+            data-price="79.90"
+            data-trash="/assets/trash.svg"
+          >
+            Adcionar ao carrinho
+          </button>
+        </div>
+        <div class="card">
+          <div class="books">
+            <img class="book-img" src="/assets/sapiens.jpg" alt="" />
+          </div>
+          <h5>Sapiens a Brief History of Humankind</h5>
+          <span>Yuval Harari </span>
+          <div>$ 49,35</div>
+          <button
+            class="add-to-cart"
+            data-title="Sapiens "
+            data-amount="Quantity:"
+            data-image="/assets/sapiens.jpg"
+            data-price="49.35"
+            data-trash="/assets/trash.svg"
+          >
+            Adcionar ao carrinho
+          </button>
+        </div>
+        <div class="card">
+          <div class="books">
+            <img class="book-img" src="/assets/sherlock-holmes.jpg" alt="" />
+          </div>
+          <h5>Sherlock Holmes: O Cão dos Baskerville</h5>
+          <span>Árthur Conan Doyle</span>
+          <div>$ 15,00</div>
+          <button
+            class="add-to-cart"
+            data-title="Sherlock holmes"
+            data-amount="Quantity:"
+            data-image="/assets/sherlock-holmes.jpg"
+            data-price="15.00"
+            data-trash="/assets/trash.svg"
+          >
+            Adcionar ao carrinho
+          </button>
+        </div>
+        <div class="card">
+          <div class="books">
+            <img class="book-img" src="/assets/leonardo.jpg" alt="" />
+          </div>
+          <h5>Leonardo da Vince</h5>
+          <span> Walter Isaacson</span>
+          <div>$ 84,90</div>
+          <button
+            class="add-to-cart"
+            data-title="Leonardo da Vinci"
+            data-amount="Quantity:"
+            data-image="/assets/leonardo.jpg"
+            data-price="84.90"
+            data-trash="/assets/trash.svg"
+          >
+            Adcionar ao carrinho
+          </button>
+        </div>
+        <div class="card">
+          <div class="books">
+            <img class="book-img" src="/assets/doriangray.jpg" alt="" />
+          </div>
+          <h5>O Retrato de Dorian Gray</h5>
+          <span>Oscar Wil</span>
+          <div>$ 99,90</div>
+          <button
+            class="add-to-cart"
+            data-title="O Retrato de Dorian Gray"
+            data-amount="Quantity:"
+            data-image="/assets/doriangray.jpg"
+            data-price="99.90"
+            data-trash="/assets/trash.svg"
+          >
+            Adcionar ao carrinho
+          </button>
+        </div>
+        <div class="card">
+          <div class="books">
+            <img class="book-img" src="/assets/frankenstein.png" alt="" />
+          </div>
+          <h5>Frankenstein</h5>
+          <span> Mary Shelley</span>
+          <div>$ 99,90</div>
+          <button
+            class="add-to-cart"
+            data-title="Frankenstein"
+            data-amount="Quantity:"
+            data-image="/assets/frankenstein.png"
+            data-price="99.90"
+            data-trash="/assets/trash.svg"
+          >
+            Adcionar ao carrinho
+          </button>
+        </div>
+        <div class="card">
+          <div class="books">
+            <img class="book-img" src="/assets/mr.mercedes.jpg" alt="" />
+          </div>
+          <h5>Mr. Mercedes</h5>
+          <span> Stephen King</span>
+          <div>$ 62.22</div>
+          <button
+            class="add-to-cart"
+            data-title="Frankenstein"
+            data-amount="Quantity:"
+            data-image="/assets/mr.mercedes.jpg"
+            data-price="62.22"
+            data-trash="/assets/trash.svg"
+          >
+            Adcionar ao carrinho
+          </button>
+        </div>
+      </main>
+      <aside>
+        <div class="cart-items"></div>
+
+        <div class="final-compra">
+          <div class="subtotal">
+            <span class="subtotal-compra-title">subtotal</span>
+            <strong class="soma-subtotal">00.00</strong>
+          </div>
+
+          <div class="total">
+            <h3 class="total-cart-title">Total</h3>
+            <strong class="soma-total-compra">00.00</strong>
+          </div>
+          <button class="finalizar-compra">Finalizar Compra</button>
+        </div>
+      </aside>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

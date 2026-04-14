@@ -1,0 +1,36 @@
+header {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border);
+}
+
+.left-side {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.right-side {
+  border-left: 1px solid var(--border);
+  padding: 20px;
+}
+
+.pesquisa {
+  width: 300px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  outline: none;
+  color: var(--text-color);
+  background-color: var(--searchbar);
+}
+
+.pesquisa::placeholder {
+  color: var(--second-color);
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
